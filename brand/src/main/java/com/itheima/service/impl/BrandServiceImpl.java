@@ -53,6 +53,8 @@ public class BrandServiceImpl implements BrandService {
 
         //6.释放资源
         sqlSession.close();
+
+        System.out.println("1111111");
     }
 
     @Override
